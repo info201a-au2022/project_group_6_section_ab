@@ -1,6 +1,6 @@
-# Media Death
+# Suicide Rates Within the U.S
 
-**Code Name**: _Media_
+**Code Name**: _SuicideRates_
 
 **Authors**: _Surina Soumpholphakdy_, _Natty Samuel_, and _Kristen Do_
 
@@ -56,43 +56,42 @@ The question, “What has changed in regards to the mental health of teens over 
 The question, “What are the negative effects of social media on the mental health of U.S. teens?” is an important topic to cover because we are able to take a closer look at teens, who are the large majority of social media users. This question is motivated by exploring specific aspects within social media and examining how teens react.
 
 ## The Dataset
-Our dataset specifically focuses on the negative impacts of social media towards teens emotional well being. Our research and problem domain focuses on these impacts, and our questions reach beyond the surfaces of social media issues. With this, we strived to find a dataset that will allow us to breach these questions, hence the choice of our dataset. Our dataset provides important information such as, visualization of the data comparison between each set of questions they’ve set; the questions set, lead way to answering our main question of if social media is a leading factor to the mental health of users. Our dataset also provides statistics on a variety of aspects of this topic. From our data, it will be beneficial to our usage as it provides data on not only specifically on the negative impacts of media towards teens but as well as data regarding cyber bullying, online access, and social usage. These different aspects provided by our dataset allows us to extend our research beyond a restricted focus and look into varying factors that play into users' usage of media.
+Our dataset specifically focuses on long-time trends of suicide rates between different countries. Suicide cases has been a prevalent issue within countries worldwide; not excluding the U.S. There are many factors that could lead or motivate an individual to commit suicide. These factors can be both social or political. Mental health is an important issue to recognize. Recognizing these rates allows others to be aware of the trends that could be increasing and how we can make plans of actions to decrease these trends. Our problem domain is to specifically focus on suicide rates within the U.S; which leads us to question and compare the trends of suicide over the years and potentially what its leading factors. Our dataset provides us with important information, alongside suicide rates, the years, sex group, age range, and population of the country. In order for us to be able to answer our research questions, these variables of data provided from our dataset are essential in being able to compare trending rates. With these variables we can specifically determine if suicide rates are more prevalent in relation to certain age groups, genders, or country. Overall, our goal is to fulfill the purpose of our dataset by spreading awareness towards these issues. 
 
-| [Negative social media effects](https://www.statista.com/statistics/934121/negative-social-media-effects-usa-teenagers-emotional-well-being/) | Online Access | Online Usage | Social Media Usage | Social Platforms | Cyberbullying |
+| [WHO Suicide Statistics](https://www.kaggle.com/datasets/szamil/who-suicide-statistics?resource=download) | |Year | Age | Suicides_no | Population |
 | -----------| ----------- | ----------- | ---------- | ----------| ---------- |
-| High social-emotional well being |  
-| Low social-emotional well being |
+| Countries | 43776 | 43776 | 43776 | 43776 | 43776
+
 
 **Who collected the data?**:
-Gfk
+WHO (World Health Organization)
 
 **When?**:
-September 2018
+2018
 
 **For what purpose?**:
-To improve the lives of all kids and families by providing resources and important information.
+To observe where the the world as a whole was heading and whether it is getting worse or better in terms of suicide trends.
 
 **How was the data collection effort funded?**:
-Common Sense Media is a non-profit organization, which means they collect funds through donations, etc.
+WHO is funded by two main sources; Accessed contribution (AC) and voluntary contributions. Accessed contributions are made by countries who are members of the organization. While, voluntary contributions are made by regular members, philanthropist foundations, etc.
 
 **Who is likely to benefit from the data or make money?**:
-The creators, Common Sense Media, are more likely to benefit/make money from the data. This is because they are directly taking the donations to fund their collections. All though in hand, by funding these data collections, users are able to obtain information. Though, directly, Common Sense Media is being benefitted.
+The creators, WHO, are more likely to benefit/make money from the data. This is because they are directly taking the donations to fund their collections. All though in hand, by funding these data collections, users are able to obtain information. Though, directly, WHO is being benefitted.
 
 **How was the data validated and held secure?**:
-They combine their original research with advocacy efforts. Their work provides solutions to protect consumer advocacy and in hand push for better connectivity for students, families, etc. And to hold tech companies accountable.
+They World Health Organization validate their data by collecting data from population-based sources such as, house-hold surveys, etc. and institution-based sources such as, health facilities, etc.
 
 **Is it credible and trustworthy?**:
-Yes this dataset is both credible and trustworthy. This dataset comes from a research organization that focuses on social media issues and its regards to the health of users. The credibility can also be validated by their usage of multiple sources and expansion to different aspects of data that does not restrict them from potential limitations.
+Yes this dataset is both credible and trustworthy. This dataset comes from a health research organization that focuses on health in general. The credibility can also be validated by their usage of multiple sources and expansion to different aspects of data that does not restrict them from potential limitations.
 
 **How did you obtain the data?**:
-We obtained the data by searching through the google database for data regarding social media and mental health.
+We obtained the data by searching through the Kaggle database for data regarding suicide rates.
 
 **Do you credit the source of the data?**:
 Yes
 
 ## Expected Implications
-Our expected implications regarding our research questions, could result in the idea of the fault lines that are created by policymakers and technologists. Social media gives users the platform to freely express themselves. However, by policies made from the policymakers of these platforms, there can be a leeway for negative effects towards a user's experience. As our research questions strive to answer, how social factors and media correlate to these issues? And how can the actions of cyberbullying be a result of the faulty of poorly created policies that disregard the safety and privacy of users who fall victim to cyberbullying. With this, we can assume that these actions leading to a low social-emotional well being of a user can be correlated to the fault of these creators who allow social factors, such as, cyberbullying to be prevalent on their platforms.
-
+Our expected implications regarding our research questions, could result in the idea of the fault lines that are created by policymakers and lack of action from social workers. There are a numerous factors that could motivate one to commit suicide. However, to commit these actions is also a reflection of the lack of action of others. The main motivation for suicide could be due to feeling neglected or downturned from others in times of need. This includes social workers, whether its a teacher, counselor, etc. And policymakers may also be a leading factor to these faults, as the lack of restrictive policies may give a leeway for those to freely commit harmful or negative actions towards someone without repercussions.
 ## Limitations
 There are a few limitations when exploring our research for this project. The first main issue and limitation that our group could possibly come across would be the inability to find data on if social media is the root cause of negative mental health issues and suicide rates. For example, we could use our knowledge in regards to the expansion of social media across our community over the years to explain the increase in poor mental health and suicide rates, though it may be difficult to find data to support this theory. Another possible limitation we could come across throughout this research project would be our lack of experience with coding and creating websites. This is our first time coding for the majority of us and we expect that we will have difficulty coding the actual project or not being able to add features that we desire.
 
