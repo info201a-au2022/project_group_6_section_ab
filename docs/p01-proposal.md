@@ -97,9 +97,9 @@ There are a few limitations when exploring our research for this project. The fi
 
 ## References
 
-Common Sense Media. (2018, September). _Negative social media effects according to U.S. teens by emotional well-being 2018 L statistic_. Statista. Retrieved October 31, 2022, from https://www.statista.com/statistics/934121/negative-social-media-effects-usa-teenagers-emotional-well-being/
-
 Miller , C. (2022, April 14). _Does social media use cause depression?_ Child Mind Institute. Retrieved October 31, 2022, from https://childmind.org/article/is-social-media-use-causing-depression/
+
+Szamil. (2018, August 29). _Who suicide statistics._ Kaggle. Retrieved November 10, 2022, from https://www.kaggle.com/datasets/szamil/who-suicide-statistics?resource=download 
 
 _Social Media and Mental Health._ HelpGuide.org. (n.d.). Retrieved October 31, 2022, from https://www.helpguide.org/articles/mental-health/social-media-and-mental-health.htm
 
