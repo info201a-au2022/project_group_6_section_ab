@@ -6,9 +6,12 @@ View(us_data)
 
 library(ggplot2)
 
-# Creating a barchart of the 'us_data' dataset and comparing the rates of suicide 
-# numbers over the years. 
+# Creating a barchart of the 'us_data' dataset of the comparison between male and female
+# suicide numbers over the years.
 
-ggplot(data = us_data) +
-  geom_col(mapping = aes(x = year, y = suicides)) +
-  labs(title = "Suicide Rates Over the Years" )
+ggplot(us_data) +
+  geom_col(
+    mapping = aes(x = year, y = suicides, fill = sex), position ="dodge"
+    ) +
+  labs(title = "Suicide Numbers Between Genders Over the Years")
+

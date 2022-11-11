@@ -20,8 +20,8 @@ View(us_data)
 #Separating genders into its own column 
 us_data <- us_data %>%
   mutate(us_data, gender_female = "female") %>%
-  mutate(us_data, gender_male = "male") %>%
-  subset(select = -sex)
+  mutate(us_data, gender_male = "male") 
+
 View(us_data)
 
 #Relocating the gender columns 
