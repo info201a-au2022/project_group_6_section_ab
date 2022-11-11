@@ -1,12 +1,16 @@
 ---
-title: "Your Project Title"
-author: "project team members"
-date: "1/22/2022"
+title: "Media Death"
+author: "Surina Soumpholphakdy, Natty Samuel, and Kristen Do"
+date: "11/09/2022"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+data <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project_group_6_section_ab/main/data/who_suicide_statistics.csv")
+library("ggplot2")
+library("dplyr")
+library("knitr")
 ```
 
 ## What is this file for?
