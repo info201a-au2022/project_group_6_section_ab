@@ -10,20 +10,19 @@
 
 
 ## Abstract
-Our main question is how does social media correlate with mental health? We are concerned with the fact that because social media is more prominent in today’s culture, this could negatively impact the mental health of users. To address this concern, we plan to take a closer look to see whether or not our theory is accurate in regards to social media’s connection to poor mental health.
+Our main question is how often does suicide occur within the United States? We are concerned with the fact that due to many changes within recent years, the rates of suicide have increased immensely. To address this concern, we plan to take a closer look at suicide rates to bring awareness to mental health.
 
 ## Keywords
-**Cyberbullying** the use of electronic communication to bully a person, typically by sending messages of an intimidating or threatening nature.
-
-**Social media** forms of electronic communication through which users create online communities to share information, ideas, personal messages, and other content
+**Suicide** death caused by injuring oneself with the intent to die.
 
 **Mental health** a person’s condition with regard to their psychological and emotional well-being
 
 **Social wellbeing** a sense of belonging to a community and making a contribution to society
 
 ## Introduction
-Within the year 2020, the United States alone estimated that there were 1.20 million attempted suicides and about 46,000 actual deaths. According to the CDC’s  article “Facts About Suicide”, when someone does suicide and or attempts it, the mental health and well-being of friends, loved ones, co-workers, and the community is negatively affected. Many times these loved ones will also experience feelings of shock, anger, guilt, symptoms of depression or anxiety. The only way we can change this and protect each other is by talking about these hard topics and being there for one another. It is very important for people to understand how much of an impact this has on our society as a whole.
+Do you think it’s normal for more than 700,000 people to commit suicide a year? A sad truth about today’s day in age is that suicide is the fourth leading cause of death for people 15-29 years-old. The only way we can change this and protect each other is by talking about these hard topics and being there for one another. It is very important for people to understand how much of an impact this has on our society as a whole. Whenever someone does commit suicide there are many more people who will attempt. In order to make a change and get people the help they need we need to shed light on this and have those hard conversations so that one day there can be a major change.
 
+## Problem Domain
 What are the main reasons people have poor mental health? Social media plays a large role in the decrease of users' mental health. Therefore, the topic that our group decided to tackle is the impact of mental health due to a social media setting. Our project will be structured in a way where we will display various statistics and data sets including the increased usage of social media over the years, cyberbullying, the mental health of teens, and negative effects of social media on the mental health of U.S. teens.
 
 Our team’s values align with this research topic because bringing awareness to mental health is something we feel strongly about. This is due to the fact that first hand, we as teens, have experienced various losses due to cyberbullying and poor mental health. According to S.Dixon article about “Teen perspectives on negative effects of social media in the U.S. 2018”,  studies show the leading reasons why teenagers ultimately feel as though social media has a negative impact on their lives. According to his statistics the leading causes for teen depression is caused by bullying/spreading rumors through the use of social media. We believe that a large reason as to why suicide rates have increased and why the mental health of teens have worsened over the years is due to the increased usage of social media and how prominent it is within our lives.
@@ -43,17 +42,14 @@ Possible harms to not tackling the issue in regards to the correlation between m
 [Does Social Media Use Cause Depression?](https://childmind.org/article/is-social-media-use-causing-depression/)
 
 ## Research questions
-**_What age group has social media become more prominent in over the years?_**
-The question, “What age group has social media become more prominent in over the years?” is an important topic to cover because our research indicates that social media use has increased compared to years past and statistics would help to make our argument stronger. This question is motivated by the fact that we want to narrow down the population and age group we want to focus on.
+**_What age group has the highest suicide rate?_**
+The question, “What age group has the highest suicide rate?” is an important topic to cover because it is detrimental that our group takes a closer look into what age group is suffering the most from poor mental health. This question is motivated by the want to find a solution for a specific age group in order to lessen the number of suicides within this specific age groups, since it is the age that is most impacted.
 
-**_Is cyberbullying a large issue amongst social media users?_**
-The question, “How is cyberbullying a large issue amongst social media users?” is an important topic to cover because cyberbullying can have a negative impact on social media users. This question is motivated by the want to explore the darker side of using social media.
+**_Is suicide more common in the male or female population?_**
+The question, “Is suicide more common in the male or female population?” is an important topic to cover because it is necessary to narrow down the population in which suicide has a greater occurance. This question is motivated by the want to know whether or not a certain female or male genetic trait is the reason for a increase amount of deaths by suicide. From here, we are able to do some research and test our theory based on the data analysis.
 
-**_What has changed in regards to the mental health of teens over the years?_**
-The question, “What has changed in regards to the mental health of teens over the years?” is an important topic to cover because we are likely to find statistics and information on how teens’ mental health has plummeted over the years. This question is motivated by the want to prove that poor mental health amongst teens have a large possibility of being connected to increased social media usage.
-
-**_What are the negative effects of social media on the mental health of U.S. teens?_**
-The question, “What are the negative effects of social media on the mental health of U.S. teens?” is an important topic to cover because we are able to take a closer look at teens, who are the large majority of social media users. This question is motivated by exploring specific aspects within social media and examining how teens react.
+**_What is the trend of suicide rates over the past few years?_**
+The question, “What is the trend of the suicide rates over the past few years?” is an important topic to cover because we need to highlight the fact that suicide is a growing issue within our community. This question is motivated by the want to know whether or not the events within recent years have triggered more poor mental health and deaths by suicide.
 
 ## The Dataset
 Our dataset specifically focuses on long-time trends of suicide rates between different countries. Suicide cases has been a prevalent issue within countries worldwide; not excluding the U.S. There are many factors that could lead or motivate an individual to commit suicide. These factors can be both social or political. Mental health is an important issue to recognize. Recognizing these rates allows others to be aware of the trends that could be increasing and how we can make plans of actions to decrease these trends. Our problem domain is to specifically focus on suicide rates within the U.S; which leads us to question and compare the trends of suicide over the years and potentially what its leading factors. Our dataset provides us with important information, alongside suicide rates, the years, sex group, age range, and population of the country. In order for us to be able to answer our research questions, these variables of data provided from our dataset are essential in being able to compare trending rates. With these variables we can specifically determine if suicide rates are more prevalent in relation to certain age groups, genders, or country. Overall, our goal is to fulfill the purpose of our dataset by spreading awareness towards these issues.
@@ -92,8 +88,9 @@ Yes
 
 ## Expected Implications
 Our expected implications regarding our research questions, could result in the idea of the fault lines that are created by policymakers and lack of action from social workers. There are a numerous factors that could motivate one to commit suicide. However, to commit these actions is also a reflection of the lack of action of others. The main motivation for suicide could be due to feeling neglected or downturned from others in times of need. This includes social workers, whether its a teacher, counselor, etc. And policymakers may also be a leading factor to these faults, as the lack of restrictive policies may give a leeway for those to freely commit harmful or negative actions towards someone without repercussions.
+
 ## Limitations
-There are a few limitations when exploring our research for this project. The first main issue and limitation that our group could possibly come across would be the inability to find data on if social media is the root cause of negative mental health issues and suicide rates. For example, we could use our knowledge in regards to the expansion of social media across our community over the years to explain the increase in poor mental health and suicide rates, though it may be difficult to find data to support this theory. Another possible limitation we could come across throughout this research project would be our lack of experience with coding and creating websites. This is our first time coding for the majority of us and we expect that we will have difficulty coding the actual project or not being able to add features that we desire.
+There are a few limitations when exploring our research for this project. The first main issue and limitation that our group could possibly come across would be the inability to find data on suicide rates. For example, we could use our knowledge of recent world events to justify the prediction of increased suicide rates, though it may be difficult to find data to support this theory. Another possible limitation we could come across throughout this research project would be our lack of experience with coding and creating websites. This is our first time coding for the majority of us and we expect that we will have difficulty coding the actual project or not being able to add features that we desire. 
 
 ## References
 
