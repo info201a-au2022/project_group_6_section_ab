@@ -51,7 +51,9 @@ summary(cars)
 source("../source/table.R")
 table.R()
 ```
-This aggregated table is a downsized and clean version of our who_suicide_statistics dataset. The purpose of downsizing our dataset is to steer more towards the focus of our research questions. We included information regarding data specifically from the U.S only; year, sex, both data from genders (female and male), age, suicide numbers, and population size. 
+This aggregated table is a downsized and clean version of our who_suicide_statistics dataset. 
+The purpose of downsizing our dataset is to steer more towards the focus of our research questions. 
+We included information regarding data specifically from the U.S only; year, sex, both data from genders (female and male), age, suicide numbers, and population size. 
 
 ## Charts
 
@@ -59,6 +61,9 @@ This aggregated table is a downsized and clean version of our who_suicide_statis
 source("../source/barchart.R")
 barchart.R()
 ```
-This is a bar chart that examines suicide numbers between genders over the years. Within this chart, we include suicide numbers (y) over the years 1980 till 2010+ (x). We also include two variables (female and male), depicted by the blue and orange bars shown on our chart. This is to show the drastic difference between suicides between genders. 
+This is a bar chart that examines suicide numbers between genders over the years.
+Within this chart, we include suicide numbers (y) over the years 1980 till 2010+ (x).
+We also include two variables (female and male), depicted by the blue and orange bars shown on our chart. 
+This is to show the drastic difference between suicides between genders. 
 
 
