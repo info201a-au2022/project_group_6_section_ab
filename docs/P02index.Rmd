@@ -66,4 +66,9 @@ Within this chart, we include suicide numbers (y) over the years 1980 till 2010+
 We also include two variables (female and male), depicted by the blue and orange bars shown on our chart. 
 This is to show the drastic difference between suicides between genders. 
 
+```{r chart 1, echo=FALSE}
+source("../source/scatterplot.R")
+scatterplot.R()
+```
+
 
