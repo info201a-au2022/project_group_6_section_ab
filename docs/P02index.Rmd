@@ -111,6 +111,10 @@ _Social Media Harm to children._ Social Media Youth Harm Attorneys - Seeger Weis
 Walsh, D. (2022, September 14). _Study: Social media use linked to decline in mental health._ MIT Sloan. Retrieved October 31, 2022, from https://mitsloan.mit.edu/ideas-made-to-matter/study-social-media-use-linked-to-decline-mental-health
 >>>>>>> c933bb08337f7e22b36e543fb7be9b79924d8158
 
+## Dynamic Paragraph
+
+After narrowing down the information found within our dataset, our group was able to focus on data collected from the United States. I was able to conclude values 1 and 2 from chart 1. **Value 1** consists of 3 reported deaths by suicide in 1980. In addition, **Value 2** consists of 9 reported deaths by suicide in 2009. From values 1 and 2, it is clear that the number of suicides increased over the years. From chart 2, we were able to find value 3. **Value 3** consists of the fact that from 1998 to 2016, the population is above 4e+07. From this value, it is clear that the population size increased. From chart 3, we were able to pull values 4 and 5. **Value 4** consists of 1 suicide by a female in 2008. **Value 5** consists of 3 suicides by males in 2008. From these values, we can conclude that more males die by suicide than females.
+
 ## Summary information
 ```{r summary}
 ```
