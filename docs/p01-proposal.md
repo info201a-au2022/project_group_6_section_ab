@@ -1,7 +1,17 @@
+<<<<<<< HEAD
+# Title of your Project: Project Proposal
+=======
 # Suicide Rates Within the U.S
+>>>>>>> c933bb08337f7e22b36e543fb7be9b79924d8158
 
 **Code Name**: _SuicideRates_
 
+<<<<<<< HEAD
+For what to do, see the [`../instructions/`](../instructions/) directory, specifically:
+
+-   [Design Brief](../instructions/project-design-brief.pdf)
+-   [Project Proposal Requirements](../instructions/p01-proposal-requirements.md)
+=======
 **Authors**: _Surina Soumpholphakdy_, _Natty Samuel_, and _Kristen Do_
 
 **Affiliation**: _INFO-201: Technical Foundations of Informatics - The Information School - University of Washington_
@@ -103,3 +113,4 @@ _Social Media and Mental Health._ HelpGuide.org. (n.d.). Retrieved October 31, 2
 _Social Media Harm to children._ Social Media Youth Harm Attorneys - Seeger Weiss LLP. (n.d.). Retrieved October 31, 2022, from https://www.seegerweiss.com/social-media-youth-harm-2?gclid=CjwKCAjw5P2aBhAlEiwAAdY7dG3Ggi491WXnjm_MjVyEGLBZcOhT3FsYdbq14NlY8djpXf02sBtmORoCA08QAvD_BwE
 
 Walsh, D. (2022, September 14). _Study: Social media use linked to decline in mental health._ MIT Sloan. Retrieved October 31, 2022, from https://mitsloan.mit.edu/ideas-made-to-matter/study-social-media-use-linked-to-decline-mental-health
+>>>>>>> c933bb08337f7e22b36e543fb7be9b79924d8158
