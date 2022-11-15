@@ -1,0 +1,74 @@
+---
+title: "Suicide Rates Within the U.S"
+author: "Surina Soumpholphakdy, Natty Samuel, and Kristen Do"
+date: "11/09/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+data <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project_group_6_section_ab/main/data/who_suicide_statistics.csv")
+library("ggplot2")
+library("dplyr")
+library("knitr")
+```
+
+## What is this file for?
+
+
+
+## ACCESSING THE /source DIRECTORY
+### Example 1: Source some code and run a function
+```{r}
+# Example 1: Note relative path, which can be read: Up one
+# directory(..), down into source (/source), and 
+# then "source" an R file (data_access.R)
+source("../source/data_access.R")
+data_access_test()
+```
+
+### Example 2: Initialize a variable and then use it
+```{r}
+# Example 1: This function was "sourced" above
+msg <- data_access_test(" Morgan!")
+```
+
+> `r msg` Hope you have a good day!! 
+
+## ABOUT THIS FILE: 
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Table 
+
+```{r Table}
+source("../source/table.R")
+table.R()
+```
+This aggregated table is a downsized and clean version of our who_suicide_statistics dataset. 
+The purpose of downsizing our dataset is to steer more towards the focus of our research questions. 
+We included information regarding data specifically from the U.S only; year, sex, both data from genders (female and male), age, suicide numbers, and population size. 
+
+## Charts
+
+```{r chart 3, echo=FALSE}
+source("../source/barchart.R")
+barchart.R()
+```
+This is a bar chart that examines suicide numbers between genders over the years.
+Within this chart, we include suicide numbers (y) over the years 1980 till 2010+ (x).
+We also include two variables (female and male), depicted by the blue and orange bars shown on our chart. 
+This is to show the drastic difference between suicides between genders. 
+
+```{r chart 1, echo=FALSE}
+source("../source/scatterplot.R")
+scatterplot.R()
+```
+
+
