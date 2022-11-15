@@ -13,4 +13,3 @@ p1 <- ggplot()+
 
 p1 + labs(title = "Suicide Rates", 
          x = "Year", y = "Population")
-
