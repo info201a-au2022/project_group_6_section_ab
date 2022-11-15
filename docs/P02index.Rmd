@@ -135,6 +135,12 @@ scatterplot.R()
 ```
 I included the scatter plot containing the number of reported suicides per year based on the dataset because our group wanted to justify our prediction in regards to the increased suicide rates over the years. The information found within the chart reveals that over the years, the number of suicides have increased.
 
+```{r chart 2, echo=FALSE}
+source("../source/line_graph.R")
+line_graph.R()
+```
+This line graph depicts the suicide rates amongst man and women across the world. This graph shows how the back in the day suicide was much more common thats why the population of the world less. From this data we can starting from 1983-2010 that the rate of suicide across the world has drastically decreased. We can also see a stead incline of human population over time from this graphs representation. 
+
 ```{r chart 3, echo=FALSE}
 source("../source/barchart.R")
 barchart.R()
@@ -144,6 +150,6 @@ Within this chart, we include suicide numbers (y) over the years 1980 till 2010+
 We also include two variables (female and male), depicted by the blue and orange bars shown on our chart. 
 This is to show the drastic difference between suicides between genders. 
 
-This line graph depicts the suicide rates amongst man and women across the world. This graph shows how the back in the day suicide was much more common thats why the population of the world less. From this data we can starting from 1983-2010 that the rate of suicide across the world has drastically decreased. We can also see a stead incline of human population over time from this graphs representation. 
+
 
 
