@@ -8,6 +8,7 @@ library("tidyverse")
 
 #Filtering the table to data from the U.S
 us_data <- data %>%
+  drop_na(suicides_no)%>%
   group_by(country, na.rm =TRUE)%>%
   filter(country == "Virgin Islands (USA)") 
 View(us_data) 
@@ -29,3 +30,4 @@ us_data <- us_data %>%
   relocate(gender_female, gender_male, .before = age)
 View(us_data)
 
+write.csv(us_data, file = "us_data.csv")
