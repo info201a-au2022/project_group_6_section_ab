@@ -5,9 +5,9 @@ account: krxxsten
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7790194
-bundleId: 6590620
+bundleId: 6590776
 url: https://krxxsten.shinyapps.io/final/
-when: 1670197244.05549
-lastSyncTime: 1670197244.0555
+when: 1670200698.50074
+lastSyncTime: 1670200698.50075
 asMultiple: FALSE
 asStatic: FALSE
