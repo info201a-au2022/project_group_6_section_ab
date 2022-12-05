@@ -56,7 +56,7 @@ page_one <- tabPanel(
 
 
 #interactive page 1 
-interactive_chart2 <- sidebarPanel(
+interactive_chart <- sidebarPanel(
   checkboxGroupInput(
     inputId = "age", 
     label= "Choose an Age Group", 
@@ -73,7 +73,7 @@ page_two <- tabPanel(
   "Scatterplot", 
   sidebarLayout(
     sidebarPanel (
-      interactive_chart2
+      interactive_chart
     ),
     mainPanel(
       h2("Age Group Rates"), 
@@ -84,7 +84,7 @@ page_two <- tabPanel(
 )
 
 #interactive page 2 
-interactive_chart <- sidebarPanel( 
+interactive_chart2 <- sidebarPanel( 
   selectInput(
     inputId = "sex", 
     label = "Choose Sex",
@@ -101,7 +101,7 @@ page_three <- tabPanel(
   ),
   sidebarLayout(
     sidebarPanel (
-      interactive_chart
+      interactive_chart2
     ), 
     mainPanel(
       h2("Suicide Rates Between Genders"), 
@@ -120,6 +120,7 @@ page_three <- tabPanel(
 #summarypage 
 #page_five <- tab_Panel()
 
+#reports page 
 page_six <- tabPanel(
   "Report",
   fluidPage(
@@ -137,22 +138,3 @@ ui <- navbarPage(
   page_six
 )
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#interactive page 3
-#page_four <- tabPanel()
-
-#summary page 
-#page_five <- tabPanel()
