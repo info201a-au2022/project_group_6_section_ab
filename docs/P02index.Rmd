@@ -13,7 +13,6 @@ library("dplyr")
 library("knitr")
 ```
 
-## What is this file for?
 
 ## Abstract
 Our main question is how often does suicide occur within the United States? We are concerned with the fact that due to many changes within recent years, the rates of suicide have increased immensely. To address this concern, we plan to take a closer look at suicide rates to bring awareness to mental health.
@@ -92,6 +91,20 @@ We obtained the data by searching through the Kaggle database for data regarding
 **Do you credit the source of the data?**:
 Yes
 
+## Findings
+**_What age group has the highest suicide rate?_**
+
+From our findings, we computed from our data an analysis of the highest age group in relation to their suicide rate. From finding the mean of suicide rates by grouping the age, we found that there is a higher rate in suicides amongst 35-45 age group. From this finding, we are able to conclude that suicides are more common amongst those who are around middle age. This was an interesting take, as prior to our computation we believed it would be higher amongst younger age group. However, from our findings it is more common amongst an older age group.
+
+**_Is suicide more common in the male or female population?_**
+
+To be able to answer this question, we found it easier to view it through a graph. As seen in our bar chart that views suicide numbers between genders over the years, we can visualize the difference between males and females in comparison to their suicide rates. In the chart, males are shown to have a much higher rate in suicide numbers and is found more common than women. There are more bars for males than females, and are shown that the suicide rates for males are found to be higher beginning a bit before the 2000s and continues to vary in increasing rates to super low rates from 2000 to 2010.  
+
+**_What is the trend of suicide rates over the past few years?_**
+
+We created another chart to be able to visualize the trends of suicide rates over the years. In this way, we are able to easily detect whether there has been a spike in increase or decrease amongst the rates along the year. From our bar chart we saw that the trends have increased over the years and can be seen evidently increased after the 2000s to present times. The trends are steady and actually vary along the years. In comparison to earlier years prior to the 2000s, there was little major suicide rates. However, it became more apparent at the beginning of the 2000s, and then there's a drastic spike in rates by 2005, and decreased but still has a high rate in the years following 2005 till present day. These trends have proven to be prevalent issue in our country, as there is a concerning increase of suicide rates as the years follow.
+
+
 ## Expected Implications
 Our expected implications regarding our research questions, could result in the idea of the fault lines that are created by policymakers and lack of action from social workers. There are a numerous factors that could motivate one to commit suicide. However, to commit these actions is also a reflection of the lack of action of others. The main motivation for suicide could be due to feeling neglected or downturned from others in times of need. This includes social workers, whether its a teacher, counselor, etc. And policymakers may also be a leading factor to these faults, as the lack of restrictive policies may give a leeway for those to freely commit harmful or negative actions towards someone without repercussions.
 
@@ -109,7 +122,6 @@ _Social Media and Mental Health._ HelpGuide.org. (n.d.). Retrieved October 31, 2
 _Social Media Harm to children._ Social Media Youth Harm Attorneys - Seeger Weiss LLP. (n.d.). Retrieved October 31, 2022, from https://www.seegerweiss.com/social-media-youth-harm-2?gclid=CjwKCAjw5P2aBhAlEiwAAdY7dG3Ggi491WXnjm_MjVyEGLBZcOhT3FsYdbq14NlY8djpXf02sBtmORoCA08QAvD_BwE
 
 Walsh, D. (2022, September 14). _Study: Social media use linked to decline in mental health._ MIT Sloan. Retrieved October 31, 2022, from https://mitsloan.mit.edu/ideas-made-to-matter/study-social-media-use-linked-to-decline-mental-health
->>>>>>> c933bb08337f7e22b36e543fb7be9b79924d8158
 
 ## Dynamic Paragraph
 
@@ -149,7 +161,3 @@ This is a bar chart that examines suicide numbers between genders over the years
 Within this chart, we include suicide numbers (y) over the years 1980 till 2010+ (x).
 We also include two variables (female and male), depicted by the blue and orange bars shown on our chart. 
 This is to show the drastic difference between suicides between genders. 
-
-
-
-
