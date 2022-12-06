@@ -25,13 +25,13 @@ server <- (function(input, output) {
       filter(age %in% input$age)%>%
       select(year, suicides, age)
     plot_scatter <- ggplot(scatterplot, 
-                           aes(x= year, y= !!as.name(input$y_axis),
-                               color= age)) +
-                    geom_point()+
+                           aes(x= year, y= suicides),
+                               color= age) +
+                    geom_bar(stat = "identity")+
                     labs(title = "Suicide Rates Between Age Groups")
     return(plot_scatter)
   })
-  
+
 #Chart 2 
   output$selectgender <- renderPlotly({
     plot <- gender_data %>%
@@ -44,7 +44,10 @@ server <- (function(input, output) {
       geom_bar(stat = "identity", col= "blue") 
     return(plot_data)
   })
+#Chart 3 
   
+#Summary Page 
+
 #Reports Page 
   output$markdown <- renderUI({
     HTML(markdown::markdownToHTML(knit("finalreport.Rmd", quiet = TRUE)))

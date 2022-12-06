@@ -107,9 +107,7 @@ page_three <- tabPanel(
       h2("Suicide Rates Between Genders"), 
       plotlyOutput(outputId = "selectgender"), 
       p(em(strong("This chart showcases the suicide rates of a gender when selected, over the 
-        years (1980-2015)"))),
-      p("Our group also recognizes our data has only provided us with limited binary gender options, 
-        and is not inclusive to all genders.")
+        years (1980-2015)")))
     )
   )
 )
@@ -117,7 +115,7 @@ page_three <- tabPanel(
 #interactive page 3
 #page_four <- tabPanel()
 
-#summarypage 
+#summary page 
 #page_five <- tab_Panel()
 
 #reports page 
