@@ -12,6 +12,7 @@ us_data <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project_g
 #introduction
 page_one <- tabPanel(
   "Introduction", 
+  img(src="intro.png", width = "1000", height = "300"),
   h2("Introduction"), 
   p("Suicide is one of the leading causes of death within the United States. 
     Issues in regards to mental health and suicide have played an enormous role within our country, our communities, and the lives of our loved ones. 
@@ -78,7 +79,9 @@ page_two <- tabPanel(
     mainPanel(
       h2("Age Group Rates"), 
       plotlyOutput(outputId = "agescatter"), 
-      p("testing")
+      p(em(strong("This chart showcases the suicide rates of an age group when selected over the 
+        years (1980-2015). 
+        Suicide numbers is measured in thousands (1 = 1,000 individuals)."))),
     )
   )
 )
@@ -107,7 +110,7 @@ page_three <- tabPanel(
       h2("Suicide Rates Between Genders"), 
       plotlyOutput(outputId = "selectgender"), 
       p(em(strong("This chart showcases the suicide rates of a gender when selected, over the 
-        years (1980-2015)")))
+        years (1980-2015). Suicide numbers is measured in thousands (1 = 1,000 individuals)")))
     )
   )
 )

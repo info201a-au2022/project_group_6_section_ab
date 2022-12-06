@@ -5,9 +5,9 @@ account: krxxsten
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7811485
-bundleId: 6596492
+bundleId: 6596584
 url: https://krxxsten.shinyapps.io/SuicidesWithinAmerica/
-when: 1670284692.79818
-lastSyncTime: 1670284692.79819
+when: 1670286696.52579
+lastSyncTime: 1670286696.5258
 asMultiple: FALSE
 asStatic: FALSE
