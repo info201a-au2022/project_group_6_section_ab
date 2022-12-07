@@ -1,5 +1,4 @@
 library(shiny)
-<<<<<<< HEAD
 library(tidyverse)
 library(dplyr)
 library(ggplot2)
@@ -58,7 +57,6 @@ page_one <- tabPanel(
 
 
 #interactive page 1 
-
 interactive_chart <- sidebarPanel(
   checkboxGroupInput(
     inputId = "age", 
@@ -84,63 +82,10 @@ page_two <- tabPanel(
       p(em(strong("This chart showcases the suicide rates of an age group when selected over the 
         years (1980-2015). 
         Suicide numbers is measured in thousands (1 = 1,000 individuals)."))),
-=======
-library(dplyr)
-library(tidyr)
-library(plotly)
-library(ggplot2)
-library(tidyverse)
-library(shinythemes)
-library(shinyWidgets)
-library(knitr)
-
-read_data <- read.csv("who_suicide_statistics.csv")
-intro_page <- tabPanel(
-  h1("INTRO"),
- p("An estimated 703 000 people die by suicide worldwide each year. 
- Over one in every 100 deaths (1.3%) in 2019 were the result of suicide. 
- The global suicide rate is over twice as high among men than women. 
- Over half (58%) of all deaths by suicide occur before the age of 50 years old.
- A previous suicide attempt is the strongest risk factor for death by suicide. 
- Globally, suicide is the fourth leading cause of death in 15-29-year-olds.
- Suicide occurs across all regions in the world, however, over three quarters 
- (77%) of global suicides in 2019 occurred in low- and middle-income countries. 
- While most deaths by suicide occur in low- and middle-income countries, the highest age-standardised suicide rate (10.9 per 100,000) is within high-income countries.
- While the global rate of suicide is showing signs of a decline,1 this is not the case in all countries and may be indicative of greater surveillance or access to data. 
- Experiences of conflict, disaster, violence, abuse, or loss and a sense of isolation are risk factors associated with suicidal behaviour. 
- Suicide rates are high within vulnerable groups who are subjected to discrimination including refugees, migrants, prisoners, indigenous people, and individuals from the LGBTI community.
- An individual suffering with depression is twenty times more likely to die by suicide than someone without the disorder." 
-    )
-  )
-# interactive_chart3 <- sidebarLayout(
-#   sidebarPanel(
-#     sliderInput(
-#       inputId = "linegraph_year",
-#       label = "Select Start Year",
-#       min = 1983,
-#       max = 2015,
-#       value = 1983,
-#       step = 1,
-#       round = TRUE
-#       )
-#     )  
-#   )
-
-second_page <- tabPanel(
-  h1("SecondPage"),
-  sidebarLayout(
-    sidebarPanel(
-      sliderInput("slider2", label = h3("Select Year"), min = 1980, sep = "", 
-                  max = 2021, value = c(1980, 2022))
-    ),
-    mainPanel(
-      plotlyOutput(outputId = "CHART")
->>>>>>> 70ca13f (finished)
     )
   )
 )
 
-<<<<<<< HEAD
 #interactive page 2 
 interactive_chart2 <- sidebarPanel( 
   selectInput(
@@ -150,7 +95,6 @@ interactive_chart2 <- sidebarPanel(
     selected = "Male"
   )
 )
-
 
 page_three <- tabPanel(
   "Gender Rates",
@@ -170,21 +114,7 @@ page_three <- tabPanel(
   )
 )
 
-#interactive page 3
-#interactive_chart3 <- sidebarLayout(
-   #sidebarPanel(
-    #sliderInput(
-      #inputId = "linegraph_year",
-       #label = "Select Start Year",
-       #min = 1983,
-       #max = 2015,
-       #value = 1983,
-       #step = 1,
-       #round = TRUE
-       #)
-     #)  
-   #)
-
+#interactive page 3 
 page_four <- tabPanel(
   "Suicide Trends",
   sidebarLayout(
@@ -200,24 +130,21 @@ page_four <- tabPanel(
 )
 
 #summary page 
-
 page_five <- tabPanel(
   "Summary",
   h1("Summary"),
-  p("An estimated 703 000 people die by suicide worldwide each year. 
- Over one in every 100 deaths (1.3%) in 2019 were the result of suicide. 
- The global suicide rate is over twice as high among men than women. 
- Over half (58%) of all deaths by suicide occur before the age of 50 years old.
- A previous suicide attempt is the strongest risk factor for death by suicide. 
- Globally, suicide is the fourth leading cause of death in 15-29-year-olds.
- Suicide occurs across all regions in the world, however, over three quarters 
- (77%) of global suicides in 2019 occurred in low- and middle-income countries. 
- While most deaths by suicide occur in low- and middle-income countries, the highest age-standardised suicide rate (10.9 per 100,000) is within high-income countries.
- While the global rate of suicide is showing signs of a decline,1 this is not the case in all countries and may be indicative of greater surveillance or access to data. 
- Experiences of conflict, disaster, violence, abuse, or loss and a sense of isolation are risk factors associated with suicidal behaviour. 
- Suicide rates are high within vulnerable groups who are subjected to discrimination including refugees, migrants, prisoners, indigenous people, and individuals from the LGBTI community.
- An individual suffering with depression is twenty times more likely to die by suicide than someone without the disorder." 
-  )
+  p("Suicide is a serious public health problem that can
+  have long-lasting effects on individuals, families,
+  and communities. The message we are trying to convey 
+  is that we need change, no one should ever have to take 
+  their own life. Mental health is just as essential as your physical health. 
+  We need to start normalizing asking others to share and talk about their own mental health. 
+  Because the more we talk about it the more we can help one another with our problems and get the 
+  necessary help we need. Having poor mental health can cause a lot of problems and complications in your life. 
+  When people’s mental illness go untreated that is when people's lives start to go haywire more or less. Causing 
+  them a whole lot of unnecessary troubles that just worsen their mental health situation, which is what inevitably 
+  causes some people to consider taking their own life. At the end of the day we need change because we are losing to many 
+  people to suicide and it didn’t start today it’s been going on for decades as can be seen by our dataset.")
 )
 
 #reports page 
@@ -227,7 +154,6 @@ page_six <- tabPanel(
     uiOutput("markdown")
   )
 )
-
 
 ui <- navbarPage(
   theme = shinytheme("journal"),
@@ -239,49 +165,3 @@ ui <- navbarPage(
   page_five,
   page_six
 )
-
-=======
-
-sumary_takeaways <- tabPanel(
-  h1("Summary Page"),
-  p("Suicide is a serious public health problem that can
-  have long-lasting effects on individuals, families,
-  and communities. The message we are trying to convey 
-  is that we need change, no one should ever have to take 
-  their own life. Mental health is just as essential as your physical health. We need to start normalizing asking others to share and talk about their own mental health. Because the more we talk about it the more we can help one another with our problems and get the necessary help we need. Having poor mental health can cause a lot of problems and complications in your life. When people’s mental illness go untreated that is when people's lives start to go haywire more or less. Causing them a whole lot of unnecessary troubles that just worsen their mental health situation, which is what inevitably causes some people to consider taking their own life. At the end of the day we need change because we are losing to many people to suicide and it didn’t start today it’s been going on for decades as can be seen by our dataset. 
-
-")
-)
-
-
-#    page_four <- tabPanel(
-#      "Max_Suicide_Year",
-#        setBackgroundColor(
-#        color = "darkgray"
-#         ),
-#       sidebarlayout(
-#         sidebarPanel(
-#         interactive_chart3
-#         ),,
-#       mainPanel(
-#         h2("Highest Suicide Rates from 1983-2015"),
-#         plotlyOutput(outputId = "selectgender"),
-#         p(em(strong("This ling graph showcases the highest suicide rates during a selected year, from 1983-2015"))),
-#         p("This data set recognizes only male and female gender and show the years with the highest sucide rates amongst each group")
-#     )  
-#   )
-# )
-
-
-ui <- navbarPage(
-  tags$title("Final Deliverable"),
-  intro_page,
-  second_page,
-  sumary_takeaways
-)
-
- 
-  
-
- 
->>>>>>> 70ca13f (finished)
