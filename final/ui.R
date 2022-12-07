@@ -81,7 +81,7 @@ page_two <- tabPanel(
       plotlyOutput(outputId = "agescatter"), 
       p(em(strong("This chart showcases the suicide rates of an age group when selected over the 
         years (1980-2015). 
-        Suicide numbers is measured in thousands (1 = 1,000 individuals)."))),
+        Suicide numbers are measured in thousands (1 = 1,000 individuals)."))),
     )
   )
 )
@@ -109,7 +109,7 @@ page_three <- tabPanel(
       h2("Suicide Rates Between Genders"), 
       plotlyOutput(outputId = "selectgender"), 
       p(em(strong("This chart showcases the suicide rates of a gender when selected, over the 
-        years (1980-2015). Suicide numbers is measured in thousands (1 = 1,000 individuals)")))
+        years (1980-2015). Suicide numbers are measured in thousands (1 = 1,000 individuals)")))
     )
   )
 )
@@ -124,7 +124,9 @@ page_four <- tabPanel(
     ),
     mainPanel(
       h2("Suicide Trends"),
-      plotlyOutput(outputId = "CHART")
+      plotlyOutput(outputId = "CHART"), 
+      p(em(strong("This chart showcases the overall suicide trends over the years 
+                  (1980-2021). Suicide numbers are measured in thousands (1 = 1,000 individuals)")))
     )
   )
 )
