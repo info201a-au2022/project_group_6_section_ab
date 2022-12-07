@@ -6,7 +6,7 @@ library(shinythemes)
 library(shinyWidgets)
 library(plotly)
 library(knitr)
-
+library(scales)
 us_data <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project_group_6_section_ab/main/data/us_data.csv")
 
 gender_data <- us_data %>%
@@ -44,10 +44,19 @@ server <- (function(input, output) {
       geom_bar(stat = "identity", col= "blue") 
     return(plot_data)
   })
-#Chart 3 
   
-#Summary Page 
-
+#Chart 3 
+  output$CHART <- renderPlotly({
+    read_data <- unique(us_data) %>% 
+      select(year, suicides, population) %>%
+      drop_na(suicides, population)
+    p1 <- ggplot(data = read_data, aes(x = year, y = suicides)) +
+      geom_bar(stat = "identity")+
+      scale_x_continuous(limits = input$slider2) +
+      scale_y_continuous("Suicides", labels = comma)+
+      theme(text = element_text(family = "Arial")) 
+})
+  
 #Reports Page 
   output$markdown <- renderUI({
     HTML(markdown::markdownToHTML(knit("finalreport.Rmd", quiet = TRUE)))

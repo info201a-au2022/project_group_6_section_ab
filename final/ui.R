@@ -57,6 +57,7 @@ page_one <- tabPanel(
 
 
 #interactive page 1 
+
 interactive_chart <- sidebarPanel(
   checkboxGroupInput(
     inputId = "age", 
@@ -116,10 +117,54 @@ page_three <- tabPanel(
 )
 
 #interactive page 3
-#page_four <- tabPanel()
+#interactive_chart3 <- sidebarLayout(
+   #sidebarPanel(
+    #sliderInput(
+      #inputId = "linegraph_year",
+       #label = "Select Start Year",
+       #min = 1983,
+       #max = 2015,
+       #value = 1983,
+       #step = 1,
+       #round = TRUE
+       #)
+     #)  
+   #)
+
+page_four <- tabPanel(
+  "Suicide Trends",
+  sidebarLayout(
+    sidebarPanel(
+      sliderInput("slider2", label = h3("Select Year"), min = 1980, sep = "", 
+                  max = 2021, value = c(1980, 2021))
+    ),
+    mainPanel(
+      h2("Suicide Trends"),
+      plotlyOutput(outputId = "CHART")
+    )
+  )
+)
 
 #summary page 
-#page_five <- tab_Panel()
+
+page_five <- tabPanel(
+  "Summary",
+  h1("Summary"),
+  p("An estimated 703 000 people die by suicide worldwide each year. 
+ Over one in every 100 deaths (1.3%) in 2019 were the result of suicide. 
+ The global suicide rate is over twice as high among men than women. 
+ Over half (58%) of all deaths by suicide occur before the age of 50 years old.
+ A previous suicide attempt is the strongest risk factor for death by suicide. 
+ Globally, suicide is the fourth leading cause of death in 15-29-year-olds.
+ Suicide occurs across all regions in the world, however, over three quarters 
+ (77%) of global suicides in 2019 occurred in low- and middle-income countries. 
+ While most deaths by suicide occur in low- and middle-income countries, the highest age-standardised suicide rate (10.9 per 100,000) is within high-income countries.
+ While the global rate of suicide is showing signs of a decline,1 this is not the case in all countries and may be indicative of greater surveillance or access to data. 
+ Experiences of conflict, disaster, violence, abuse, or loss and a sense of isolation are risk factors associated with suicidal behaviour. 
+ Suicide rates are high within vulnerable groups who are subjected to discrimination including refugees, migrants, prisoners, indigenous people, and individuals from the LGBTI community.
+ An individual suffering with depression is twenty times more likely to die by suicide than someone without the disorder." 
+  )
+)
 
 #reports page 
 page_six <- tabPanel(
@@ -136,6 +181,8 @@ ui <- navbarPage(
   page_one,
   page_two,
   page_three,
+  page_four,
+  page_five,
   page_six
 )
 
