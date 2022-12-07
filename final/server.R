@@ -1,4 +1,5 @@
 library(shiny)
+<<<<<<< HEAD
 library(tidyverse)
 library(dplyr)
 library(ggplot2)
@@ -54,3 +55,50 @@ server <- (function(input, output) {
   })
   
 })
+=======
+library(dplyr)
+library(tidyr)
+library(plotly)
+library(ggplot2)
+library(tidyverse)
+library(shinythemes)
+library(shinyWidgets)
+library(knitr)
+library(scales)
+read_data <- read.csv("who_suicide_statistics.csv")
+
+server <- function(input, output) {
+  output$CHART <- renderPlotly({
+    read_data <- read_data %>% 
+      drop_na()
+    p1 <- ggplot(data = read_data) +
+      geom_line(mapping = aes(x = year, y = population))+
+      scale_x_continuous(limits = input$slider2) +
+      scale_y_continuous("Populartion", labels = comma)+
+    # scale_x_continuous(limits = "slider2")+
+    theme(text = element_text(family = "Arial"))
+  
+  # p1 + labs(title = "Suicide Rates", 
+  #           x = "Year", y = "Population")
+  })
+  # observe(session$setCurrentTheme(
+  #   if (isTRUE(input$dark_mode))
+  #   
+  #   output$max_suicide <- renderPlotly({
+  #   line_graph <- suicide_data %>% 
+  #   drop_na(suicides) %>% 
+  #   filter(year %in% input$year) %>% 
+  #   select(year, suicides, age)
+  #   plot_line_graph <- ggplot(line_graph,
+  #       aes(x = year, y = !!as.name(input$y_axis),
+  #      color = age)) +
+  #     })
+  
+  #output$deaths = renderText({
+   # specific <- Read_Data[ which(Read_Data$region == input$Choose_Location & Read_Data$year == input$Choose_Year), ]
+   # population <- specific[,3:7]
+   # highest_num_deaths <- colnames(population)[apply(population,1,which.max)]
+  #  paste(highest_num_deaths)
+ # })
+}
+>>>>>>> 70ca13f (finished)
