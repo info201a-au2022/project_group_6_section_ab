@@ -71,7 +71,7 @@ interactive_chart <- sidebarPanel(
 )
 
 page_two <- tabPanel(
-  "Scatterplot", 
+  "Age Rates", 
   sidebarLayout(
     sidebarPanel (
       interactive_chart
